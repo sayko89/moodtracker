@@ -173,6 +173,6 @@ To change these, update `app.json` under `ios.bundleIdentifier` and `android.pac
 
 ---
 
-## License
+## Youtube Link
 
-MIT
+https://youtube.com/shorts/D7HrC-SO0Ak?si=HbRTzd0o2Ao4SpCC
