@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "DevMood",
+    "slug": "devmood",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "devmood",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F7F5FF"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.safiye.devmood"
+    },
+    "android": {
+      "package": "com.safiye.devmood",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#F7F5FF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/icon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "a316559c-43db-41c2-9fe9-560ff4765c19"
+      }
+    }
+  }
+}
